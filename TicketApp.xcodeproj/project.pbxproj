@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		852A9A6F2AC60A05003C195A /* ManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 852A9A6E2AC60A05003C195A /* ManagerViewController.m */; };
+		8540B9BC2AC7109700A817EA /* HistoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8540B9BB2AC7109700A817EA /* HistoryTableViewController.m */; };
+		8540B9C62AC72A0A00A817EA /* Tickets.m in Sources */ = {isa = PBXBuildFile; fileRef = 8540B9C52AC72A0A00A817EA /* Tickets.m */; };
+		8540B9CF2AC74F3D00A817EA /* HistoryPurchasedItems.m in Sources */ = {isa = PBXBuildFile; fileRef = 8540B9CE2AC74F3D00A817EA /* HistoryPurchasedItems.m */; };
+		857892852AC5C2DC0087D8CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 857892842AC5C2DC0087D8CC /* AppDelegate.m */; };
+		857892882AC5C2DC0087D8CC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 857892872AC5C2DC0087D8CC /* SceneDelegate.m */; };
+		8578928B2AC5C2DC0087D8CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8578928A2AC5C2DC0087D8CC /* ViewController.m */; };
+		8578928E2AC5C2DC0087D8CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8578928C2AC5C2DC0087D8CC /* Main.storyboard */; };
+		857892902AC5C2DF0087D8CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8578928F2AC5C2DF0087D8CC /* Assets.xcassets */; };
+		857892932AC5C2E00087D8CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 857892912AC5C2E00087D8CC /* LaunchScreen.storyboard */; };
+		857892962AC5C2E00087D8CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 857892952AC5C2E00087D8CC /* main.m */; };
+		85BDD2CD2AC7C29200335163 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BDD2CC2AC7C29200335163 /* DetailViewController.m */; };
+		85BDD2D02AC7D58700335163 /* ResetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BDD2CF2AC7D58700335163 /* ResetViewController.m */; };
+		85BDD2D32AC7FC4300335163 /* StoreTickets.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BDD2D12AC7FC4300335163 /* StoreTickets.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		852A9A6D2AC60A05003C195A /* ManagerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ManagerViewController.h; sourceTree = "<group>"; };
+		852A9A6E2AC60A05003C195A /* ManagerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManagerViewController.m; sourceTree = "<group>"; };
+		8540B9BA2AC7109600A817EA /* HistoryTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistoryTableViewController.h; sourceTree = "<group>"; };
+		8540B9BB2AC7109700A817EA /* HistoryTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistoryTableViewController.m; sourceTree = "<group>"; };
+		8540B9C42AC72A0A00A817EA /* Tickets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tickets.h; sourceTree = "<group>"; };
+		8540B9C52AC72A0A00A817EA /* Tickets.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tickets.m; sourceTree = "<group>"; };
+		8540B9CD2AC74F3C00A817EA /* HistoryPurchasedItems.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistoryPurchasedItems.h; sourceTree = "<group>"; };
+		8540B9CE2AC74F3D00A817EA /* HistoryPurchasedItems.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistoryPurchasedItems.m; sourceTree = "<group>"; };
+		857892802AC5C2DC0087D8CC /* TicketApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicketApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		857892832AC5C2DC0087D8CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		857892842AC5C2DC0087D8CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		857892862AC5C2DC0087D8CC /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		857892872AC5C2DC0087D8CC /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		857892892AC5C2DC0087D8CC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8578928A2AC5C2DC0087D8CC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8578928D2AC5C2DC0087D8CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8578928F2AC5C2DF0087D8CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		857892922AC5C2E00087D8CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		857892942AC5C2E00087D8CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		857892952AC5C2E00087D8CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		85BDD2CB2AC7C29200335163 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		85BDD2CC2AC7C29200335163 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		85BDD2CE2AC7D58600335163 /* ResetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResetViewController.h; sourceTree = "<group>"; };
+		85BDD2CF2AC7D58700335163 /* ResetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResetViewController.m; sourceTree = "<group>"; };
+		85BDD2D12AC7FC4300335163 /* StoreTickets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreTickets.m; sourceTree = "<group>"; };
+		85BDD2D22AC7FC4300335163 /* StoreTickets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreTickets.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8578927D2AC5C2DC0087D8CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		857892772AC5C2DC0087D8CC = {
+			isa = PBXGroup;
+			children = (
+				857892822AC5C2DC0087D8CC /* TicketApp */,
+				857892812AC5C2DC0087D8CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		857892812AC5C2DC0087D8CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				857892802AC5C2DC0087D8CC /* TicketApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		857892822AC5C2DC0087D8CC /* TicketApp */ = {
+			isa = PBXGroup;
+			children = (
+				85B723F12AE079DD00C2D3B8 /* Model */,
+				85B723F22AE07A2000C2D3B8 /* Controller */,
+				857892832AC5C2DC0087D8CC /* AppDelegate.h */,
+				857892842AC5C2DC0087D8CC /* AppDelegate.m */,
+				857892862AC5C2DC0087D8CC /* SceneDelegate.h */,
+				857892872AC5C2DC0087D8CC /* SceneDelegate.m */,
+				8578928C2AC5C2DC0087D8CC /* Main.storyboard */,
+				8578928F2AC5C2DF0087D8CC /* Assets.xcassets */,
+				857892912AC5C2E00087D8CC /* LaunchScreen.storyboard */,
+				857892942AC5C2E00087D8CC /* Info.plist */,
+				857892952AC5C2E00087D8CC /* main.m */,
+			);
+			path = TicketApp;
+			sourceTree = "<group>";
+		};
+		85B723F12AE079DD00C2D3B8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				85BDD2D22AC7FC4300335163 /* StoreTickets.h */,
+				85BDD2D12AC7FC4300335163 /* StoreTickets.m */,
+				8540B9C42AC72A0A00A817EA /* Tickets.h */,
+				8540B9C52AC72A0A00A817EA /* Tickets.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		85B723F22AE07A2000C2D3B8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				857892892AC5C2DC0087D8CC /* ViewController.h */,
+				8578928A2AC5C2DC0087D8CC /* ViewController.m */,
+				8540B9CE2AC74F3D00A817EA /* HistoryPurchasedItems.m */,
+				8540B9CD2AC74F3C00A817EA /* HistoryPurchasedItems.h */,
+				852A9A6D2AC60A05003C195A /* ManagerViewController.h */,
+				852A9A6E2AC60A05003C195A /* ManagerViewController.m */,
+				8540B9BA2AC7109600A817EA /* HistoryTableViewController.h */,
+				8540B9BB2AC7109700A817EA /* HistoryTableViewController.m */,
+				85BDD2CB2AC7C29200335163 /* DetailViewController.h */,
+				85BDD2CC2AC7C29200335163 /* DetailViewController.m */,
+				85BDD2CE2AC7D58600335163 /* ResetViewController.h */,
+				85BDD2CF2AC7D58700335163 /* ResetViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8578927F2AC5C2DC0087D8CC /* TicketApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 857892992AC5C2E00087D8CC /* Build configuration list for PBXNativeTarget "TicketApp" */;
+			buildPhases = (
+				8578927C2AC5C2DC0087D8CC /* Sources */,
+				8578927D2AC5C2DC0087D8CC /* Frameworks */,
+				8578927E2AC5C2DC0087D8CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TicketApp;
+			productName = TicketApp;
+			productReference = 857892802AC5C2DC0087D8CC /* TicketApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		857892782AC5C2DC0087D8CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					8578927F2AC5C2DC0087D8CC = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 8578927B2AC5C2DC0087D8CC /* Build configuration list for PBXProject "TicketApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 857892772AC5C2DC0087D8CC;
+			productRefGroup = 857892812AC5C2DC0087D8CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8578927F2AC5C2DC0087D8CC /* TicketApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8578927E2AC5C2DC0087D8CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				857892932AC5C2E00087D8CC /* LaunchScreen.storyboard in Resources */,
+				857892902AC5C2DF0087D8CC /* Assets.xcassets in Resources */,
+				8578928E2AC5C2DC0087D8CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8578927C2AC5C2DC0087D8CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8578928B2AC5C2DC0087D8CC /* ViewController.m in Sources */,
+				85BDD2D02AC7D58700335163 /* ResetViewController.m in Sources */,
+				8540B9BC2AC7109700A817EA /* HistoryTableViewController.m in Sources */,
+				8540B9CF2AC74F3D00A817EA /* HistoryPurchasedItems.m in Sources */,
+				852A9A6F2AC60A05003C195A /* ManagerViewController.m in Sources */,
+				857892852AC5C2DC0087D8CC /* AppDelegate.m in Sources */,
+				85BDD2CD2AC7C29200335163 /* DetailViewController.m in Sources */,
+				8540B9C62AC72A0A00A817EA /* Tickets.m in Sources */,
+				857892962AC5C2E00087D8CC /* main.m in Sources */,
+				85BDD2D32AC7FC4300335163 /* StoreTickets.m in Sources */,
+				857892882AC5C2DC0087D8CC /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8578928C2AC5C2DC0087D8CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8578928D2AC5C2DC0087D8CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		857892912AC5C2E00087D8CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				857892922AC5C2E00087D8CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		857892972AC5C2E00087D8CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		857892982AC5C2E00087D8CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8578929A2AC5C2E00087D8CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TicketApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ca.senecacollege.Project.TicketApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8578929B2AC5C2E00087D8CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TicketApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ca.senecacollege.Project.TicketApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8578927B2AC5C2DC0087D8CC /* Build configuration list for PBXProject "TicketApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				857892972AC5C2E00087D8CC /* Debug */,
+				857892982AC5C2E00087D8CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		857892992AC5C2E00087D8CC /* Build configuration list for PBXNativeTarget "TicketApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8578929A2AC5C2E00087D8CC /* Debug */,
+				8578929B2AC5C2E00087D8CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 857892782AC5C2DC0087D8CC /* Project object */;
+}
