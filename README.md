@@ -1,9 +1,5 @@
 # TicketApp
 Ticket App that lets user purchase diffrent type of basketball ticket types. Allows you to restock and view purchasing history
-Here's a simplified README for your GitHub repository for Assignment 1:
-
----
-
 # Tickets App
 
 ## Objectives
@@ -37,13 +33,13 @@ Here's a simplified README for your GitHub repository for Assignment 1:
 - Displays the transaction history for the current session (history is not saved when the app closes).
 - Tapping a cell in the History View will load detailed information in the Detail View Controller.
 
-          ### Detail View Controller
-          
-          - Displays details for each transaction:
-            - Item name
-            - Quantity
-            - Total amount
-            - Purchase date
+    ### Detail View Controller
+    
+    - Displays details for each transaction:
+      - Item name
+      - Quantity
+      - Total amount
+      - Purchase date
 
 ### Reset View Controller
 
